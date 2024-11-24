@@ -1,0 +1,51 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-image: linear-gradient(rgb(85, 205, 252), rgb(179, 157, 233), rgb(247, 168, 184), rgb(246, 216, 221), rgb(255, 255, 255) 45%, rgb(255, 255, 255), rgb(255, 255, 255) 55%, rgb(246, 216, 221), rgb(247, 168, 184), rgb(179, 157, 233), rgb(85, 205, 252));
+  color: black;
+  font-family: "Pixelify Sans";
+}
+
+.topdecor {
+  color: teal;
+  background-color: pink;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: palevioletred;
+  padding: 1px;
+}
+.centerdecor {
+  background-color: pink;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: palevioletred;
+  margin: 20px;
+  padding: 30px;
+}
+.imagedecor {
+  border-radius: 3px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+.textdecor {
+  overflow: auto;
+}
+.linkdecor {
+  display: flex;
+  flex-direction: column;
+}
+.linkdiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h3 {
+  color: teal;
+}
+h4 {
+  color: teal;
+}
