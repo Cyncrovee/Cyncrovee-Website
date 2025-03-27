@@ -1,100 +1,111 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cyncrovee!</title>
-    <!-- The style.css file allows you to change the look of your web pages.
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyncrovee!</title>
+  <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div style="text-align:center;" class="topdecor">
-      <h1>Welcome to my Website, I'm Cyncrovee!</h1>
-      <p>I'm a <span style="color: lightcoral;">tr</span><span style="color: cadetblue;">an</span><span style="color: whitesmoke;">s</span><span style="color: whitesmoke;">f</span><span style="color: cadetblue;">e</span><span style="color: lightcoral;">m</span> programmer from the UK, mostly developing GUI applications</p>
-      <p>I'm 19, and my pronouns are She/Her!</p>
-      <p>(This site may work better on desktop!)</p>
+  <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div style="text-align:center;" class="topdecor">
+    <h1>Welcome to my Website, I'm Cyncrovee!</h1>
+    <p>I'm a <span style="color: lightcoral;">tr</span><span style="color: cadetblue;">an</span><span
+        style="color: whitesmoke;">s</span><span style="color: whitesmoke;">f</span><span
+        style="color: cadetblue;">e</span><span style="color: lightcoral;">m</span> programmer from the UK, mostly
+      developing GUI applications</p>
+    <p>I'm 19, and my pronouns are She/Her!</p>
+    <p>(This site may work better on desktop!)</p>
+  </div>
+
+  <div class="linkdiv">
+    <div style="text-align:center;" class="centerdecor">
+      <a href="info.html">What Programs and Tools Do I Use?</a>
     </div>
 
-    <div class="linkdiv">
-      <div style="text-align:center;" class="centerdecor">
-        <a href="info.html">What Programs and Tools Do I Use?</a>
+    <div style="text-align:center;" class="centerdecor">
+      <div>
+        <a href="#projects">Go to Projects</a>
       </div>
-  
-      <div style="text-align:center;" class="centerdecor">
-        <div>
-          <a href="#projects">Go to Projects</a>
-        </div>
-        <div>
-          <a href="#languages/frameworks">Go to Languages/Frameworks</a>
-        </div>
+      <div>
+        <a href="#languages/frameworks">Go to Languages/Frameworks</a>
       </div>
     </div>
+  </div>
 
-    <div id="projects" class="centerdecor">
-      <h2 class="textdecor">Here are my current projects:</h2>
-      <h3 class="textdecor">This Website!</h3>
-      <a href="https://github.com/Cyncrovee/Cyncrovee-Website">Website Repository</a>
-      <p>This website is open source which you can view in the link above, though keep in mind the repo may not reflect the site 1 to 1.</p>
-      <h3 class="textdecor">Enviredit</h3>
-      <a href="https://github.com/Cyncrovee/Enviredit">GitHub Repository</a>
-      <p>Enviredit is a free and open source text editor made with AvaloniaUI (C#/AXAML) and AvaloniaEdit</p>
-      <img class="imagedecor" src="/images/Enviredit.png" height="300">
-      <h3 class="textdecor">CynVee-Hash-Checker</h3>
-      <a href="https://github.com/Cyncrovee/CynVee-Hash-Checker">GitHub Repository (GUI Version, C#/AXAML)</a>
-      <p></p>
-      <a href="https://github.com/Cyncrovee/CynVee-Hash-Checker_CLI">GitHub Repository (CLI Version, Python)</a>
-      <p class="textdecor">These are hash checking applications made with C#/AXAML/AvaloniaUI (GUI Version) and Python(CLI Version). The GUI verison has support for SHA-1, SHA-256, SHA-384, SHA-512 and MD5, and the CLI verison has support for SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-224, SHA3-256, SHA3-384, SHA3-512, MD5, and Blake2B/2S<br> <br>The aim of the apps is to make it easier to generate and/or compare hashes from files, as I often found the process to be a bit too time consuming, at least on Windows.</p>
-      <!-- <img class="imagedecor" src="/images/CynVee-Hash-Checker-Screenshot.PNG" height="300"> -->
-      <h3 class="textdecor">CynVee-Text-Processor</h3>
-      <a href="https://github.com/Cyncrovee/CynVee-Text-Processor">GitHub Repository</a>
-      <p class="textdecor">This is a text processor application made with C#, XAML and the WPF framework. If I'm being honest, I would've preferred to use Avalonia, however WPF has a built in rich text box and the benefit of being a bit more mature.<br> <br>Regardless, the program has support for using <i>Italics</i>, <b>Bold</b>, <u>Underline</u>, and aligning text (I also want to implement <sup>Super</sup>/<sub>Sub</sub>script at some point). It also has a file list feature similar to CynVee-Code-Editor.</p>
-      <!-- <img class="imagedecor" src="/images/CynVee-Text-Processor-Screenshot.PNG" height="300">  -->
-      <p></p>
-      <a class="linkdecor" href="https://avaloniaui.net">AvaloniaUI Website</a>
-      <a class="linkdecor" href="https://github.com/AvaloniaUI/Avalonia">AvaloniaUI GitHub Repository</a>
-      <a class="linkdecor" href="https://github.com/avaloniaui/avaloniaedit">AvaloniaEdit GitHub Repository</a>
-    </div>
+  <div id="projects" class="centerdecor">
+    <h2 class="textdecor">Here are my current projects:</h2>
+    <h3 class="textdecor">This Website!</h3>
+    <a href="https://github.com/Cyncrovee/Cyncrovee-Website">Website Repository</a>
+    <p>This website is open source which you can view in the link above, though keep in mind the repo may not reflect
+      the site 1 to 1.</p>
+    <h3 class="textdecor">Enviredit</h3>
+    <a href="https://github.com/Cyncrovee/Enviredit">GitHub Repository</a>
+    <p>Enviredit is a free and open source text editor made with AvaloniaUI (C#/AXAML) and AvaloniaEdit</p>
+    <img class="imagedecor" src="/images/Enviredit.png" height="300">
+    <h3 class="textdecor">Verdict Hasher</h3>
+    <a href="https://github.com/Cyncrovee/CynVee-Hash-Checker_CLI">GitHub Repository</a>
+    <p class="textdecor">These is a CLI hash checking program made with Python. It has
+      support for SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-224, SHA3-256, SHA3-384, SHA3-512, MD5, and
+      Blake2B/2S<br> <br>The aim of this program is to make it easier to generate and/or compare hashes from files, as I
+      often found the process to be a bit too time consuming, at least on Windows.</p>
+    <h3 class="textdecor">Collapse Shell</h3>
+    <a href="https://github.com/Cyncrovee/collapse-shell">GitHub Repository</a>
+    <p class="textdecor">This is a shell written in Rust
+    </p>
+    <h3 class="textdecor">Collapse Utils</h3>
+    <a href="https://github.com/Cyncrovee/collapse-shell">GitHub Repository</a>
+    <p class="textdecor">This is a collection of command line utilities written in Rust- similar to GNU Coreutils
+    </p>
+    <p></p>
+    <a class="linkdecor" href="https://avaloniaui.net">AvaloniaUI Website</a>
+    <a class="linkdecor" href="https://github.com/AvaloniaUI/Avalonia">AvaloniaUI GitHub Repository</a>
+    <a class="linkdecor" href="https://github.com/avaloniaui/avaloniaedit">AvaloniaEdit GitHub Repository</a>
+  </div>
 
-    <div id="languages/frameworks" class="centerdecor">
-      <h3 class="textdecor">I'm familiar with the following languages/frameworks:</h3>
-      <h4 class="textdecor">Languages</h4>
-      <ul class="textdecor">
-        <li>C#</li>
-        <li>GDScript</li>
-        <li>Python</li>
-        <li>AXAML</li>
-        <li>XAML</li>
-      </ul>
-      <h4 class="textdecor">Frameworks</h4>
-      <ul class="textdecor">
-        <li>Avalonia UI</li>
-        <li>WPF</li>
-        <li>WinUI</li>
-      </ul>
-      <h3 class="textdecor">And I have some light experience with the following languages/frameworks:</h3>
-      <h4 class="textdecor">Languages</h4>
-      <ul class="textdecor">
-        <li>Java</li>
-        <li>Rust</li>
-        <li>FXML</li>
-        <li>HTML/CSS</li>
-      </ul>
-      <h4 class="textdecor">Frameworks</h4>
-      <ul class="textdecor">
-        <li>JavaFX</li>
-      </ul>
-    </div>
+  <div id="languages/frameworks" class="centerdecor">
+    <h3 class="textdecor">I'm familiar with the following languages/frameworks:</h3>
+    <h4 class="textdecor">Languages</h4>
+    <ul class="textdecor">
+      <li>C#</li>
+      <li>GDScript</li>
+      <li>Python</li>
+      <li>AXAML</li>
+      <li>XAML</li>
+    </ul>
+    <h4 class="textdecor">Frameworks</h4>
+    <ul class="textdecor">
+      <li>Avalonia UI</li>
+      <li>WPF</li>
+      <li>WinUI</li>
+    </ul>
+    <h3 class="textdecor">And I have some light experience with the following languages/frameworks:</h3>
+    <h4 class="textdecor">Languages</h4>
+    <ul class="textdecor">
+      <li>Java</li>
+      <li>Rust</li>
+      <li>FXML</li>
+      <li>HTML/CSS</li>
+    </ul>
+    <h4 class="textdecor">Frameworks</h4>
+    <ul class="textdecor">
+      <li>JavaFX</li>
+    </ul>
+  </div>
 
-    <div style="text-align:center;">
-      <img src="/neocities.png">
-    </div>
-    <div style="text-align:center;">
-      <a href>Go to Top of Page</a>
-    </div>
-  </body>
+  <div style="text-align:center;">
+    <img src="/neocities.png">
+  </div>
+  <div style="text-align:center;">
+    <a href>Go to Top of Page</a>
+  </div>
+</body>
+
 </html>
