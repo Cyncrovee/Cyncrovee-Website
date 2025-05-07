@@ -8,14 +8,14 @@ body {
   color: teal;
   background-color: pink;
   border-radius: 10px;
-  border-style: solid;
+  border-style: dashed;
   border-color: palevioletred;
   padding: 1px;
 }
 .centerdecor {
   background-color: pink;
   border-radius: 10px;
-  border-style: dashed;
+  border-style: solid;
   border-color: palevioletred;
   margin: 20px;
   padding: 30px;
