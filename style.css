@@ -13,6 +13,10 @@ body {
     margin-right: 20%;
 }
 
+.centerContainer {
+    display: flex;
+}
+
 .banner {
     background-color: #ebebed;
     box-shadow: 6px 6px;
@@ -20,10 +24,6 @@ body {
     border-radius: 5px;
     border-style: solid;
     text-align: center;
-}
-
-.centerContainer {
-    display: flex;
 }
 
 .sideBar {
