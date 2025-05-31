@@ -1,151 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cyncrovee!</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <div style="text-align: center" class="topdecor">
-      <h1>Welcome to my Website, I'm Cyncrovee!</h1>
-      <p>
-        I'm a <span style="color: lightcoral">tr</span
-        ><span style="color: cadetblue">an</span
-        ><span style="color: whitesmoke">s</span
-        ><span style="color: whitesmoke">f</span
-        ><span style="color: cadetblue">e</span
-        ><span style="color: lightcoral">m</span> programmer from the UK, mostly
-        developing GUI applications
-      </p>
-      <p>I'm 20, and my pronouns are She/It!</p>
-      <p>(This site may work better on desktop!)</p>
-    </div>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <div class="linkdiv">
-      <div style="text-align: center" class="centerdecor">
-        <a href="info.html">What Programs and Tools Do I Use?</a>
-      </div>
-
-      <div style="text-align: center" class="centerdecor">
-        <div>
-          <a href="#projects">Go to Projects</a>
+<body>
+    <div class="mainContainer">
+        <div class="banner">
+            <h1>Hi, I'm Cyncrovee!</h1>
+            <p>But you can call my Cyn if you like. Welcome to my website!</p>
+            <p>She/Her, 20</p>
         </div>
-        <div>
-          <a href="#languages/frameworks">Go to Languages/Frameworks</a>
+        <p></p>
+        <div class="centerContainer">
+            <div class="sideBar">
+                <p style="margin-left: 10px; margin-right: 10px;">Navigation:</p>
+                <p></p>
+                <a href="index.html">Home</a>
+                <p></p>
+                <a href="https://cyncrovee.codeberg.page">Blog</a>
+                <p></p>
+                <a href="projects.html">Projects</a>
+                <p></p>
+                <a href="tools.html">Tools</a>
+                <p></p>
+            </div>
+            <div class="center">
+                <p>I'm a transfem programmer from the UK, working on a bunch of different projects from a GTK based text
+                    editor,
+                    to a CLI hash checking program, to a Rust-based shell and utils.</p>
+                <p>See the menu on the left for general navigation, and look below for the font license/credit
+                    information,
+                    and please keep in mind that this site may look better on desktop.
+                </p>
+            </div>
         </div>
-      </div>
+        <p></p>
+        <div class="footer">
+            <p>This website uses the "JetBrains Mono" Font. Below are the author and license files for this font:</p>
+            <a href="font-folder/AUTHORS.txt">Font Authors</a>
+            <a href="font-folder/OFL.txt">Font License</a>
+        </div>
     </div>
+</body>
 
-    <div id="projects" class="centerdecor">
-      <h2 class="textdecor">Here are my current projects:</h2>
-      <h3 class="textdecor">This Website!</h3>
-      <a href="https://github.com/Cyncrovee/Cyncrovee-Website"
-        >Website Repository</a
-      >
-      <p>
-        This website is open source which you can view in the link above, though
-        keep in mind the repo may not reflect the site 1 to 1.
-      </p>
-      <h3 class="textdecor">Verdict Hasher</h3>
-      <a href="https://github.com/Cyncrovee/CynVee-Hash-Checker_CLI"
-        >GitHub Repository</a
-      >
-      <p class="textdecor">
-        These is a CLI hash checking program made with Python. It has support
-        for SHA-1, SHA-224, SHA-256, SHA-384, SHA-512, SHA3-224, SHA3-256,
-        SHA3-384, SHA3-512, MD5, and Blake2B/2S<br />
-        <br />The aim of this program is to make it easier to generate and/or
-        compare hashes from files, as I often found the process to be a bit too
-        time consuming, at least on Windows.
-      </p>
-      <h3 class="textdecor">Collapse Shell</h3>
-      <a href="https://github.com/Cyncrovee/collapse-shell"
-        >GitHub Repository</a
-      >
-      <p class="textdecor">
-        This is a shell written in Rust. It's still quite early in development,
-        however does have basic functionality.
-      </p>
-      <h3 class="textdecor">Collapse Utils</h3>
-      <a href="https://github.com/Cyncrovee/collapse-utils"
-        >GitHub Repository</a
-      >
-      <p class="textdecor">
-        This is a collection of command line utilities written in Rust- similar
-        to GNU Coreutils. Like Collapse-Shell, it is quite new and early in
-        development.
-      </p>
-      <h3 class="textdecor">Cynvee Main Config Files</h3>
-      <a href="https://github.com/Cyncrovee/cynvee-main-config-files"
-        >GitHub Repository</a
-      >
-      <p>
-        This is the git repo for my configuration files. It is primarily focused
-        on Emacs at the moment, but it also contains configurations for vim,
-        neovim, fastfetch, etc.
-      </p>
-      <a class="linkdecor" href="https://avaloniaui.net">AvaloniaUI Website</a>
-      <a class="linkdecor" href="https://github.com/AvaloniaUI/Avalonia"
-        >AvaloniaUI GitHub Repository</a
-      >
-      <a class="linkdecor" href="https://github.com/avaloniaui/avaloniaedit"
-        >AvaloniaEdit GitHub Repository</a
-      >
-    </div>
-
-    <div id="languages/frameworks" class="centerdecor">
-      <h3 class="textdecor">
-        I'm familiar with the following languages/frameworks:
-      </h3>
-      <h4 class="textdecor">Languages</h4>
-      <ul class="textdecor">
-        <li>C#</li>
-        <li>Rust</li>
-        <li>GDScript</li>
-        <li>Python</li>
-        <li>AXAML</li>
-        <li>XAML</li>
-      </ul>
-      <h4 class="textdecor">Frameworks</h4>
-      <ul class="textdecor">
-        <li>Avalonia UI</li>
-        <li>WPF</li>
-        <li>WinUI</li>
-      </ul>
-      <h3 class="textdecor">
-        And I have some light experience with the following
-        languages/frameworks:
-      </h3>
-      <h4 class="textdecor">Languages</h4>
-      <ul class="textdecor">
-        <li>Java</li>
-        <li>FXML</li>
-        <li>HTML/CSS</li>
-        <li>Elisp</li>
-      </ul>
-      <h4 class="textdecor">Frameworks</h4>
-      <ul class="textdecor">
-        <li>JavaFX</li>
-        <li>Ratatui</li>
-      </ul>
-    </div>
-
-    <div style="text-align: center">
-      <img src="/neocities.png" />
-    </div>
-    <div style="text-align: center">
-      <a href>Go to Top of Page</a>
-    </div>
-  </body>
 </html>

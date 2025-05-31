@@ -1,50 +1,54 @@
+@font-face {
+    font-family: JBMono;
+    src: url(font-folder/JetBrainsMono-Regular.woff2);
+}
+
 body {
-  background-image: linear-gradient(to right, rgb(85, 205, 252), rgb(179, 157, 233), rgb(247, 168, 184), rgb(246, 216, 221), rgb(255, 255, 255));
-  color: black;
-  font-family: "Pixelify Sans";
+    background-image: linear-gradient(to right, rgb(85, 205, 252), rgb(179, 157, 233), rgb(247, 168, 184), rgb(246, 216, 221), rgb(255, 255, 255));
+    font-family: JBMono;
 }
 
-.topdecor {
-  color: teal;
-  background-color: pink;
-  border-radius: 10px;
-  border-style: dashed;
-  border-color: palevioletred;
-  padding: 1px;
-}
-.centerdecor {
-  background-color: pink;
-  border-radius: 10px;
-  border-style: solid;
-  border-color: palevioletred;
-  margin: 20px;
-  padding: 30px;
-}
-.imagedecor {
-  border-radius: 3px;
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
-}
-.textdecor {
-  overflow: auto;
-}
-.linkdecor {
-  display: flex;
-  flex-direction: column;
-}
-.linkdiv {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.mainContainer {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
-h2 {
-  color: teal;
+.banner {
+    background-color: #ebebed;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
 }
-h3 {
-  color: teal;
+
+.centerContainer {
+    display: flex;
 }
-h4 {
-  color: teal;
+
+.sideBar {
+    background-color: #ebebed;
+    display: grid;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    max-height: 300px;
+}
+
+.center {
+    background-color: #ebebed;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 1%;
+}
+
+.footer {
+    background-color: #ebebed;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
 }
