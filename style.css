@@ -24,6 +24,7 @@ body {
     border-radius: 5px;
     border-style: solid;
     text-align: center;
+    text-shadow: 2px 2px rgb(247, 168, 184);
 }
 
 .sideBar {
@@ -35,6 +36,16 @@ body {
     border-style: solid;
     text-align: center;
     max-height: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.sideBarItems {
+    background-color: rgb(247, 168, 184);
+    border: 3px;
+    border-radius: 9px;
+    border-style: solid;
+    padding-top: 10px;
 }
 
 .center {
