@@ -9,8 +9,8 @@ body {
 }
 
 .mainContainer {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .centerContainer {
@@ -24,6 +24,9 @@ body {
     border-radius: 5px;
     border-style: solid;
     text-align: center;
+}
+
+.bannerText {
     text-shadow: 2px 2px rgb(247, 168, 184);
 }
 
@@ -56,6 +59,12 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     margin-left: 15px;
+}
+
+.indexLinkContainer {
+	display: grid;
+	grid-template-columns: 150px 150px;
+	column-gap: 20px
 }
 
 .footer {
