@@ -73,10 +73,35 @@ body {
 .indexLinkContainer {
 	display: grid;
 	grid-template-columns: 150px 150px;
-	column-gap: 20px
+	column-gap: 20px;
+	padding-bottom: 5px;
+}
+
+.newstickerWrapper {
+    background-color: rgb(247, 168, 184);
+	margin-top: 5px;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+.newsticker {
+	font-size: x-large;
+	white-space: pre;
+	animation: newstickerAnimation 15s linear infinite;
+}
+.newsticker:hover {
+	animation-play-state: paused;
+}
+@keyframes newstickerAnimation {
+	0% { transform: translateX(100%); }
+	100% { transform: translateX(-100%); }
 }
 
 .footer {
+	margin-top: 10px;
     background-color: #ebebed;
     box-shadow: 6px 6px;
     border: 3px;
