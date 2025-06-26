@@ -45,6 +45,11 @@ body {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin: 15px auto 15px auto;
+	transition: font-size 0.5s;
+}
+
+.navigation:hover {
+	font-size: x-large;
 }
 
 .navigation a:link {
