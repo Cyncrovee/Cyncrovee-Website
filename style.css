@@ -72,6 +72,29 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     margin-left: 15px;
+	width: 80%;
+	transition: font-size 0.5s;
+}
+@media (min-width: 800px) {
+	.center:active {
+		font-size: large;
+	}
+}
+
+.centerMisc {
+    background-color: #ebebed;
+    border: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 15px;
+	transition: font-size 0.5s;
+}
+@media (min-width: 800px) {
+	.centerMisc:active {
+		font-size: large;
+	}
 }
 
 .indexLinkContainer {
@@ -91,13 +114,21 @@ body {
 	padding-left: 5px;
 	padding-right: 5px;
 	margin-top: 0px;
+	transition: font-size 0.5s;
 }
+@media (min-width: 800px) {
+	.status:active {
+		font-size: large;
+	}
+}
+
 @media (max-width: 800px) {
 	.centerWrapper {
 		display: unset;
 	}
 	.center {
 		border-radius: 5px 5px 0px 0px;
+		width: 94.5%;
 	}
 	.status {
 		margin-left: 15px;
@@ -137,4 +168,10 @@ body {
     border-radius: 5px;
     border-style: solid;
     text-align: center;
+	transition: font-size 0.5s;
+}
+@media (min-width: 800px) {
+	.footer:active {
+		font-size: large;
+	}
 }
